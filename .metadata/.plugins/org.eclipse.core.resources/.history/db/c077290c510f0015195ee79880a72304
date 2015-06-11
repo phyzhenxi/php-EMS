@@ -1,0 +1,7 @@
+<?php
+require_once 'connect.php';
+$username=$_GET['uname'];
+$seluname="select username from user where username=$username";
+if(($result=mysql_query($seluname))==0){
+	$response="用户名可用";
+}

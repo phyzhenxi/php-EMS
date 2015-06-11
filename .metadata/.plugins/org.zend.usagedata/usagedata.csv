@@ -1,0 +1,5 @@
+monitorId,attribute1,attribute2,attribute3,attribute4,time
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.php.perspective,"view",1433821731851
+org.zend.viewsUsageMonitor,activated,org.zend.php.framework.ui.views.mvc,org.eclipse.php.perspective,"view",1433821732664
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.copy",1433822435634
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.copy",1433822491603

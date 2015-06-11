@@ -1,0 +1,23 @@
+<?php
+session_start();
+require './User.class.php';  //先把类包含进来，实际路径根据实际情况进行修改。
+require_once 'connect.php';
+//把传递过来的信息入库，在入库之前对所有的信息进行校验
+$User= new User();
+$User->setUsername($_POST['username']);
+$User->setPassword($_POST['pwd']);
+$username=$User->getUsername();
+$selectsql="select * from user where username='$username'";
+$query=mysql_query($selectsql);
+if(mysql_num_rows($query)==0){
+	echo "<script>alert('error:用户名或密码错误');window.location.href='/EMS';</script>";
+}else {
+$data=mysql_fetch_assoc($query);
+var_dump($data['username']);
+if($User->getPassword()==$data['password']){
+
+	echo "<script>alert('success:登陆成功');window.location.href='emplist.php';</script>";
+}else {
+	echo "<script>alert('error:用户名或密码错误');window.location.href='/EMS';</script>";
+}
+}

@@ -1,0 +1,20 @@
+<?php
+session_start();
+require_once 'connect.php';
+//把传递过来的信息入库，在入库之前对所有的信息进行校验
+$user= new User();
+$user->getUsername()=$_POST['username'];
+$user->getPassword()=$_POST['pwd'];
+$selectsql="select * from user where username='$username'";
+$query=mysql_query($selectsql);
+if(mysql_num_rows($query)==0){
+	echo "<script>alert('error:用户名或密码错误');window.location.href='/EMS';</script>";
+}else {
+$data=mysql_fetch_assoc($query);
+if($password==$data['password']){
+
+	echo "<script>alert('success:登陆成功');window.location.href='emplist.php';</script>";
+}else {
+	echo "<script>alert('error:用户名或密码错误');window.location.href='/EMS';</script>";
+}
+}

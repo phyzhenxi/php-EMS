@@ -1,0 +1,104 @@
+<?php 
+	require_once 'connect.php';
+	$sql="select * from emp order by id";
+	$query=mysql_query($sql);
+	if($query&&mysql_num_rows($query)){
+		while($row = mysql_fetch_assoc($query)){
+			$data[]=$row;
+		}
+	}else {
+		$data=array();
+	}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>员工列表</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript">
+	function del_confirm(id){
+		
+		}
+</script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="top_content"> 
+				<div id="header">
+					<div id="rightheader">
+						<p>
+							<?php echo "今天是 " . date("Y-m-d");?>
+							<br />
+						</p>
+					</div>
+					<div id="topheader">
+						<h1 id="title">
+							<a href="#">员工管理系统</a>
+						</h1>
+					</div>
+					<div id="navigation">
+					</div>
+				</div>
+				<div id="content">
+					<p id="whereami">
+					</p>
+					<h1>
+						欢迎&nbsp; <?php ?>
+					</h1>
+					<table class="table">
+						<tr class="table_header">
+							<td>
+								ID
+							</td>
+							<td>
+								姓名
+							</td>
+							<td>
+								工资
+							</td>
+							<td>
+								年龄
+							</td>
+							<td>
+								操作
+							</td>
+						</tr>
+						<?php 
+							if(!empty($data)){
+							$num=1;
+							foreach ($data as $value){
+								$num++;
+						?>
+						<tr class="row<?php echo $num%2+1?>">
+							<td>
+								<?php echo $value['id']?>
+							</td>
+							<td>
+								<?php echo $value['name']?>
+							</td>
+							<td>
+								<?php echo $value['salary']?>
+							</td>
+							<td>
+								<?php echo $value['age']?>
+							</td>
+							<td>
+								<a href="ems.del.handle.php?id=<?php echo $value['id']?>">删除员工</a>&nbsp;<a href="updateEmp.php?id=<?php echo $value['id']?>">修改员工</a>
+							</td>
+						</tr>
+						<?php }}?>
+					</table>
+					<p>
+						<input type="button" class="button" value="添加员工" onclick="location='addEmp.php'"/>
+					</p>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer_bg">
+				ABC@126.com
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

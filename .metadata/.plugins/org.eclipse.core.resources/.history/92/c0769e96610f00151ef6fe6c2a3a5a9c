@@ -1,0 +1,14 @@
+<?php
+class User
+{
+	private $id=-1;
+	private $username='';
+	private $name='';
+	private $password='';
+	private $sex='';
+	
+	// method declaration
+	public function displayVar() {
+		echo $this->var;
+	}
+}

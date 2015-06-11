@@ -1,0 +1,11 @@
+<?php
+	require_once 'connect.php';
+	$username=$_POST['username'];
+	$name=$_POST['name'];
+	$password=$_POST['pwd'];
+	$sex=$_POST['sex'];
+	$regsql="insert into user (username,name,password,sex) values ('$username','$name',
+	'$password','$sex');";
+	if(mysql_query($regsql)){
+		
+	}

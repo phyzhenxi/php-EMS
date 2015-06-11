@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="OverrideMethodDialog">
+		<item value="true" key="showtypes"/>
+	</section>
+	<section name="PHPSourceActionDialog.methods">
+		<item value="false" key="PHPSourceActionDialog.FinalModifier"/>
+		<item value="64" key="PHPSourceActionDialog.VisibilityModifier"/>
+		<item value="true" key="PHPSourceActionDialog.Comments"/>
+	</section>
+</section>

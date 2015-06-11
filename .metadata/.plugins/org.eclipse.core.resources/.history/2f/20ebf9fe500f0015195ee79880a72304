@@ -1,0 +1,8 @@
+<?php
+require_once 'connect.php';
+$username=$_GET['uname'];
+$seluname="select username from user where username=$username";
+if(($result=mysql_query($seluname))==0){
+	echo "<script>alert('error:用户名已被使用');</script>";
+	return;
+}

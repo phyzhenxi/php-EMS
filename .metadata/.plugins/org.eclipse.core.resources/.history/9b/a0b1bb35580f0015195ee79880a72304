@@ -1,0 +1,10 @@
+<?php
+session_start();
+$number='';
+if(isset($_GET['code'])){
+	$number=$_POST['number'];
+}
+if($number!=$_SESSION["number"]){
+	echo "<script>alert('error:验证码输入错误');window.location.href='regist.php';</script>";
+	return;
+}

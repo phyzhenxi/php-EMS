@@ -1,0 +1,4 @@
+<?php
+Session_start();
+$_SESSION["name"]= "这是一个session案例";
+echo $_SESSION["name"];

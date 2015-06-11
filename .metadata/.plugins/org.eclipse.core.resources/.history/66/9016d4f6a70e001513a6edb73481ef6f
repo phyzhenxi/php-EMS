@@ -1,0 +1,15 @@
+<?php
+require_once 'connect.php';
+//把传递过来的信息入库，在入库之前对所有的信息进行校验
+if (!(isset($_POST['username'])&&(!empty($_POST['username'])))){
+	echo "<script>alert('用户名不能为空');window.location.href='index.php';</script>";
+}
+$username=$_POST['username'];
+$password=$_POST['pwd'];
+$insertsql="select * from user where username=$username";
+$data=mysql_query($insertsql);
+if(){
+	echo "<script>alert('success:员工添加成功');window.location.href='emplist.php';</script>";
+}else {
+	echo "<script>alert('error:员工添加失败');window.location.href='addEmp.php';</script>";
+}

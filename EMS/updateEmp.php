@@ -1,0 +1,99 @@
+<?php 
+session_start();
+$username=$_SESSION['user']['username'];
+if($username==null){
+	echo "<script>alert('您还没有登录');window.location.href='/EMS';</script>";
+}
+	require_once 'connect.php';
+	//读取旧信息
+	$id=$_GET['id'];
+	$query=mysql_query("select * from emp where id=$id");
+	$data=mysql_fetch_assoc($query);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>修改员工信息</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script language="javascript" type="text/javascript" src="style/ems.js"></script>
+	
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="top_content">
+					<div id="header">
+						<div id="rightheader">
+							<p>
+								<span id="localtime"><?php echo "<script type='text/javascript'> tick();</script>"; ?></span>
+							<br />
+							</p>
+						</div>
+						<div id="topheader">
+							<h1 id="title">
+								<a href="#">员工管理系统</a>
+							</h1>
+						</div>
+						<div id="navigation">
+						</div>
+					</div>
+				<div id="content">
+					<p id="whereami">
+					</p>
+					<h1>
+						修改员工信息:
+					</h1>
+					<form action="ems.modify.handle.php" method="post">
+						<table cellpadding="0" cellspacing="0" border="0"
+							class="form_table">
+							
+							<tr>
+								<td valign="middle" align="right">
+									id:
+								</td>
+								<td valign="middle" align="left">
+									<?php echo $data['id']?><input type="hidden" class="inputgri" name="id" value="<?php echo $data['id']?>"/>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									名字:
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="name" value="<?php echo $data['name']?>"/>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									工资:
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="salary" value="<?php echo $data['salary']?>"/>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									年龄:
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="age" value="<?php echo $data['age']?>"/>
+								</td>
+							</tr>
+						</table>
+						<p>
+							<input type="submit" class="button" value="提交信息" />
+							<input type="button" class="button" value="返回" onclick="javascript :history.back(-1);"/>
+							
+						</p>
+					</form>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer_bg">
+					ABC@126.com
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

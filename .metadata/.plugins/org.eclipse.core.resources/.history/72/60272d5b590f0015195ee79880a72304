@@ -1,0 +1,132 @@
+/*时钟*/
+function showLocale(objD) {
+	var str, colorhead, colorfoot;
+	var yy = objD.getYear();
+	if (yy < 1900)
+		yy = yy + 1900;
+	var MM = objD.getMonth() + 1;
+	if (MM < 10)
+		MM = '0' + MM;
+	var dd = objD.getDate();
+	if (dd < 10)
+		dd = '0' + dd;
+	var hh = objD.getHours();
+	if (hh < 10)
+		hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if (mm < 10)
+		mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if (ss < 10)
+		ss = '0' + ss;
+	var ww = objD.getDay();
+	if (ww == 0)
+		colorhead = "<font color=\"#FF0000\">";
+	if (ww > 0 && ww < 6)
+		colorhead = "<font color=\"#373737\">";
+	if (ww == 6)
+		colorhead = "<font color=\"#008000\">";
+	if (ww == 0)
+		ww = "星期日";
+	if (ww == 1)
+		ww = "星期一";
+	if (ww == 2)
+		ww = "星期二";
+	if (ww == 3)
+		ww = "星期三";
+	if (ww == 4)
+		ww = "星期四";
+	if (ww == 5)
+		ww = "星期五";
+	if (ww == 6)
+		ww = "星期六";
+	colorfoot = "</font>"
+	str = colorhead + yy + "年" + MM + "月" + dd + "日" + hh + ":" + mm + ":" + ss
+			+ " " + ww + colorfoot;
+	return (str);
+}
+/* 计时器 */
+function tick() {
+	var today;
+	today = new Date();
+	document.getElementById("localtime").innerHTML = showLocale(today);
+	window.setTimeout("tick()", 1000);
+}
+
+/* Ajax请求验证用户名是否可用 */
+function seluname(username) {
+	if (username.length == 0) {
+		document.getElementById("erruname").innerHTML = "用户名为空";
+		return;
+	}
+	// 获取xmlHttpObject对象，如果为空，提示浏览器不支持ajax
+	xmlHttp = GetXmlHttpObject();
+	if (xmlHttp == null) {
+		alert("浏览器不支持ajax");
+		return;
+	}
+	// 获取url
+	var url = "selectUsername.php";
+	url = url + "?uname=" + username;
+	url = url + "&sid=" + Math.random();
+	// 回调函数，执行动作
+	xmlHttp.onreadystatechange = stateChanged;
+	// open
+	xmlHttp.open("GET", url, true);
+	xmlHttp.send(null);
+}
+function stateChanged() {
+	if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
+		// 将获取的信息插入到txtHint中
+		document.getElementById("erruname").innerHTML = xmlHttp.responseText;
+	}
+}
+
+// 获取xml对象
+function GetXmlHttpObject() {
+	var xmlHttp = null;
+	try {
+		// Firefox, Opera 8.0+, Safari
+		xmlHttp = new XMLHttpRequest();
+	} catch (e) {
+		// Internet Explorer
+		try {
+			xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+	}
+	return xmlHttp;
+}
+
+/*校验验证码是否错误*/
+function checkCode(code){
+	if (code.length == 0) {
+		document.getElementById("errcode").innerHTML = "请填写验证码";
+		return;
+	}
+	// 获取xmlHttpObject对象，如果为空，提示浏览器不支持ajax
+	xmlHttp = GetXmlHttpObject();
+	if (xmlHttp == null) {
+		alert("浏览器不支持ajax");
+		return;
+	}
+	// 获取url
+	var url = "checkCode.php";
+	url = url + "?code=" + code;
+	url = url + "&sid=" + Math.random();
+	// 回调函数，执行动作
+	xmlHttp.onreadystatechange = stateChanged;
+	// open
+	xmlHttp.open("GET", url, true);
+	xmlHttp.send(null);
+}
+function stateChanged() {
+	if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
+		// 将获取的信息插入到txtHint中
+		var result=xmlHttp.responseText;
+		if(result==1){
+		document.getElementById("errcode").innerHTML ='验证码错误' ;
+		}
+	}
+}

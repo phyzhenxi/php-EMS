@@ -1,0 +1,8 @@
+<?php
+	require_once 'connect.php';
+	$id=$_POST['id'];
+	$username=$_POST['username'];
+	$name=$_POST['name'];
+	$password=$_POST['password'];
+	$sex=$_POST['sex'];
+	

@@ -1,0 +1,7 @@
+<?php
+echo 'test';
+$connect=mysql_connect("localhost","root","") or die("数据库链接错误");;
+if(!$connect) echo "Mysql Connect Error!";
+else echo "mysql 连接成功";
+mysql_close();
+?>

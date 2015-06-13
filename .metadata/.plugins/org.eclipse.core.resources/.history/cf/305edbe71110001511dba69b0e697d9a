@@ -1,0 +1,8 @@
+<?php
+header("Content-type:text/html;charset=utf-8");
+//echo 一次输出多个字符串，多个值之间用逗号分开，不能作为表达式的一部分
+echo 'A','B',' ','c';
+
+//print() 打印一个值(参数),如果成功则返回true，否则返回false
+$m=print('Abc');
+var_dump($m);

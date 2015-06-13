@@ -1,0 +1,14 @@
+<?php
+header("Content-type:text/html;charset=utf-8");
+$num1=9.9;
+$s=settype($num1, 'boolean');
+var_dump($num1);
+var_dump($s);
+
+$num2=9.9;
+$str='1';
+
+$result=(int)$str+(int)$num2;
+var_dump($result);
+var_dump($num2);
+var_dump($str);

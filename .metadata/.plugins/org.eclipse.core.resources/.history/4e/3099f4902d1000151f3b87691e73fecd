@@ -1,0 +1,33 @@
+<?php
+header("Content-type:text/html;charset=utf-8");
+//永久转换变量
+$num1=1.1; //float
+var_dump($num1);
+echo '<br/><br/>';
+settype($num1, 'boolean');
+var_dump($num1); //float      boolean
+
+echo '<br/><br/><br/><br/><br/>';
+$num1=1.111;
+if($num1==true){
+	echo '不开心<br/><br/>';
+}else {
+	echo '很开心<br/><br/>';
+}
+
+
+
+
+
+
+
+//临时转换变量
+$num2=9.9;
+$str='1';
+$result=(int)$str+(int)$num2;
+var_dump($result);
+echo '<br/>';
+var_dump($num2);
+echo '<br/>';
+var_dump($str);
+echo '<br/>';

@@ -3,9 +3,10 @@
 	<head>
 		<title>login</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<link rel="stylesheet" type="text/css"
-			href="css/style.css" />
-					<script language="javascript" type="text/javascript" src="style/ems.js"></script>
+		<link rel="stylesheet" type="text/css" href="em/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="ziyuan/demo.css" />
+        <link rel="stylesheet" type="text/css" href="ziyuan/style6.css" />
+					<script language="javascript" type="text/javascript" src="em/style/ems.js"></script>
 	</head>
 
 	<body>
@@ -20,7 +21,7 @@
 						</div>
 						<div id="topheader">
 							<h1 id="title">
-								<a href="#">员工管理系统</a>
+								<a href="#">员工文章管理系统</a>
 							</h1>
 						</div>
 						<div id="navigation">
@@ -30,33 +31,24 @@
 					<p id="whereami">
 					</p>
 					<h1>
-						登陆
+						请选择登陆的系统
 					</h1>
-					<form action="ems.login.handle.php" method="post">
-						<table cellpadding="0" cellspacing="0" border="0"
-							class="form_table">
-							<tr>
-								<td valign="middle" align="right">
-									用户名:
-								</td>
-								<td valign="middle" align="left">
-									<input type="text" class="inputgri" name="username" />
-								</td>
-							</tr>
-							<tr>
-								<td valign="middle" align="right">
-									密码:
-								</td>
-								<td valign="middle" align="left">
-									<input type="password" class="inputgri" name="pwd" />
-								</td>
-							</tr>
-						</table>
-						<p>
-							<input type="submit" class="button" value="登陆" />
-							<input type="button" class="button" value="注册" onclick="location='regist.php'"/>
-						</p>
-					</form>
+					<div class="clear container fix">
+            <div class="content">
+				<div class="button-wrapper">
+					<a href="/EMS/em" class="a-btn">
+                        <span></span>
+						<span>员工管理</span>
+                        <span>员工管理</span>
+					</a>
+					<a href="/EMS/art" class="a-btn">
+                        <span></span>
+						<span>文章管理</span>		
+                        <span>文章管理</span>
+					</a>
+				</div>
+            </div>
+        </div>
 				</div>
 			</div>
 			<div id="footer">

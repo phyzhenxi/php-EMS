@@ -2631,3 +2631,1449 @@ Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\font\Elephant.ttf.
 !MESSAGE Problems encountered while deleting files.
 !SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-06-10 20:43:49.815
 !MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\font\Elephant.ttf.
+!SESSION 2015-06-11 15:58:29.680 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2015-06-11 15:58:44.565
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-11 15:58:44.565
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@331dd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-11 15:58:44.714
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-11 15:58:44.714
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@c90a0a,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@ee5d13),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ec3c6d)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@b21d14,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@ee5d13),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ec3c6d)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-11 15:58:44.718
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-11 15:58:44.718
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-11 16:00:03.571
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:10.551
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:11.958
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:15.314
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:19.141
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:20.149
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.php.core 4 10001 2015-06-11 16:02:21.810
+!MESSAGE PHPCore plugin internal error
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.php.internal.core.ast.locator.Locator.locateNode(Locator.java:70)
+	at org.eclipse.php.internal.core.ast.nodes.Program.getElementAt(Program.java:263)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.insideMethodInvocation(ServiceCompletionStrategy.java:97)
+	at org.zend.php.framework.ui.zf2.locatorbinding.ServiceCompletionStrategy.apply(ServiceCompletionStrategy.java:60)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:108)
+	at org.eclipse.php.internal.core.codeassist.PHPCompletionEngine.complete(PHPCompletionEngine.java:63)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:503)
+	at org.eclipse.dltk.internal.core.Openable$CompletionThread.run(Openable.java:484)
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-11 16:21:10.582
+!MESSAGE Error decoding problem idenfier "570425394"
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-11 16:21:10.584
+!MESSAGE Error decoding problem idenfier "1073741824"
+!SESSION 2015-06-11 19:12:55.893 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2015-06-11 19:13:05.746
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-11 19:13:05.746
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@16e9494,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-11 19:13:05.871
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-11 19:13:05.872
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1ad4242,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@ed3bff),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6c2a78)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1d91382,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@ed3bff),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6c2a78)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-11 19:13:05.876
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-11 19:13:05.876
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-11 19:13:17.857
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.eclipse.ui 2 2 2015-06-11 19:13:26.347
+!MESSAGE Invalid preference category path: org.eclipse.atf.preferences.ATF (bundle: org.eclipse.atf.mozilla.ide.ui, page: org.eclipse.atf.mozilla.ide.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2015-06-11 19:13:26.348
+!MESSAGE Invalid preference category path: org.eclipse.wst.jsdt.debug.ui.debug.page (bundle: org.eclipse.wst.jsdt.debug.rhino.ui, page: org.eclipse.wst.jsdt.debug.rhino.ui.debug.pref.page)
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-11 19:17:45.588
+!MESSAGE Error decoding problem idenfier "1073741824"
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-11 19:31:17.545
+!MESSAGE Error decoding problem idenfier "570425394"
+!SESSION 2015-06-12 09:42:45.817 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 09:43:10.006
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 09:43:10.006
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@eb1327,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-12 09:43:10.139
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-12 09:43:10.139
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@b800,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@638ee4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1eea7f0)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1300800,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@638ee4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1eea7f0)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 09:43:10.141
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 09:43:10.141
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-12 09:44:31.020
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.zend.php.common 1 0 2015-06-12 09:44:58.484
+!MESSAGE No response for 4055msec
+Thread[main,6,main]
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.exists(Unknown Source)
+ org.eclipse.osgi.internal.baseadaptor.BaseStorage.getExtractFile(BaseStorage.java:332)
+ org.eclipse.osgi.baseadaptor.BaseData.getExtractFile(BaseData.java:486)
+ org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.getExtractFile(ZipBundleFile.java:155)
+ org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile.getFile(ZipBundleFile.java:166)
+ org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry.getFileURL(ZipBundleEntry.java:110)
+ org.eclipse.osgi.framework.internal.core.BundleURLConnection.getFileURL(BundleURLConnection.java:129)
+ org.eclipse.core.runtime.internal.adaptor.URLConverterImpl.toFileURL(URLConverterImpl.java:34)
+ org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:206)
+ org.eclipse.jface.resource.FileImageDescriptor.getFilePath(FileImageDescriptor.java:219)
+ org.eclipse.jface.resource.FileImageDescriptor.createImage(FileImageDescriptor.java:172)
+ org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:247)
+ org.eclipse.jface.text.source.projection.ProjectionAnnotation.initializeImages(ProjectionAnnotation.java:145)
+ org.eclipse.jface.text.source.projection.ProjectionAnnotation.getImage(ProjectionAnnotation.java:137)
+ org.eclipse.jface.text.source.projection.ProjectionAnnotation.paint(ProjectionAnnotation.java:116)
+ org.eclipse.php.internal.ui.folding.html.ProjectionModelNodeAdapterHTML$TagProjectionAnnotation.paint(ProjectionModelNodeAdapterHTML.java:90)
+ org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:256)
+ org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:790)
+ org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:541)
+ org.eclipse.jface.text.source.AnnotationRulerColumn.access$3(AnnotationRulerColumn.java:517)
+ org.eclipse.jface.text.source.AnnotationRulerColumn$1.paintControl(AnnotationRulerColumn.java:289)
+ org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:230)
+ org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+ org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+ org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
+ org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+ org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
+ org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-12 09:45:36.301
+!MESSAGE Error decoding problem idenfier "536871091"
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-06-12 11:33:24.266
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1642)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.MoveResourceChange.doPerformReorg(MoveResourceChange.java:42)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.ResourceReorgChange.perform(ResourceReorgChange.java:62)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not move: D:\PHP_workspace\bukaixin\EMS\code.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveFolder(ResourceTree.java:995)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2008)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.MoveResourceChange.doPerformReorg(MoveResourceChange.java:42)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.ResourceReorgChange.perform(ResourceReorgChange.java:62)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code.
+!SUBENTRY 1 org.eclipse.core.resources 4 4 2015-06-12 11:33:24.506
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 272 2015-06-12 11:33:24.506
+!MESSAGE Could not move: D:\PHP_workspace\bukaixin\EMS\code.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveFolder(ResourceTree.java:995)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2008)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.MoveResourceChange.doPerformReorg(MoveResourceChange.java:42)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.ResourceReorgChange.perform(ResourceReorgChange.java:62)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.507
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.507
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.507
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.507
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-06-12 11:33:24.549
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2015-06-12 11:33:24.549
+!MESSAGE Could not move: D:\PHP_workspace\bukaixin\EMS\code.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveFolder(ResourceTree.java:995)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2008)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.MoveResourceChange.doPerformReorg(MoveResourceChange.java:42)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.ResourceReorgChange.perform(ResourceReorgChange.java:62)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font.
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.549
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.549
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.549
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-12 11:33:24.549
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-06-12 11:33:28.500
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: End position lies outside document range
+	at org.eclipse.ltk.internal.core.refactoring.Changes.asCoreException(Changes.java:62)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.perform(UndoTextFileChange.java:212)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler$1.run(ChangeExceptionHandler.java:127)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.performUndo(ChangeExceptionHandler.java:137)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.handle(ChangeExceptionHandler.java:105)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.handle(ChangeExceptionHandler.java:91)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.PreviewWizardPage.performFinish(PreviewWizardPage.java:387)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:455)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:187)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:202)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at com.zend.php.refactoring.ui.utils.RefactoringStarter.activate(RefactoringStarter.java:42)
+	at com.zend.php.refactoring.ui.actions.RefactoringMoveAction.run(RefactoringMoveAction.java:113)
+	at com.zend.php.refactoring.ui.actions.RefactoringMoveAction.run(RefactoringMoveAction.java:168)
+	at org.eclipse.php.internal.ui.actions.ReorgMoveAction.run(ReorgMoveAction.java:181)
+	at org.eclipse.php.internal.ui.explorer.PHPSelectionTransferDropAdapter.handleDropMove(PHPSelectionTransferDropAdapter.java:109)
+	at org.eclipse.php.internal.ui.explorer.PHPSelectionTransferDropAdapter.performDrop(PHPSelectionTransferDropAdapter.java:64)
+	at org.eclipse.dltk.internal.ui.dnd.DLTKViewerDropAdapter.drop(DLTKViewerDropAdapter.java:241)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:211)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:209)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:258)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.text.edits.MalformedTreeException: End position lies outside document range
+	at org.eclipse.text.edits.TextEditProcessor.checkIntegrityUndo(TextEditProcessor.java:183)
+	at org.eclipse.text.edits.UndoEdit.dispatchCheckIntegrity(UndoEdit.java:61)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:151)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:711)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.doPerformEdits(UndoTextFileChange.java:281)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.performEdits(UndoTextFileChange.java:228)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.perform(UndoTextFileChange.java:194)
+	... 78 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10001 2015-06-12 11:33:28.502
+!MESSAGE End position lies outside document range
+!STACK 0
+org.eclipse.text.edits.MalformedTreeException: End position lies outside document range
+	at org.eclipse.text.edits.TextEditProcessor.checkIntegrityUndo(TextEditProcessor.java:183)
+	at org.eclipse.text.edits.UndoEdit.dispatchCheckIntegrity(UndoEdit.java:61)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:151)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:711)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.doPerformEdits(UndoTextFileChange.java:281)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.performEdits(UndoTextFileChange.java:228)
+	at org.eclipse.ltk.core.refactoring.UndoTextFileChange.perform(UndoTextFileChange.java:194)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler$1.run(ChangeExceptionHandler.java:127)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.performUndo(ChangeExceptionHandler.java:137)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.handle(ChangeExceptionHandler.java:105)
+	at org.eclipse.ltk.internal.ui.refactoring.ChangeExceptionHandler.handle(ChangeExceptionHandler.java:91)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:646)
+	at org.eclipse.ltk.internal.ui.refactoring.PreviewWizardPage.performFinish(PreviewWizardPage.java:387)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:455)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:187)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:202)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at com.zend.php.refactoring.ui.utils.RefactoringStarter.activate(RefactoringStarter.java:42)
+	at com.zend.php.refactoring.ui.actions.RefactoringMoveAction.run(RefactoringMoveAction.java:113)
+	at com.zend.php.refactoring.ui.actions.RefactoringMoveAction.run(RefactoringMoveAction.java:168)
+	at org.eclipse.php.internal.ui.actions.ReorgMoveAction.run(ReorgMoveAction.java:181)
+	at org.eclipse.php.internal.ui.explorer.PHPSelectionTransferDropAdapter.handleDropMove(PHPSelectionTransferDropAdapter.java:109)
+	at org.eclipse.php.internal.ui.explorer.PHPSelectionTransferDropAdapter.performDrop(PHPSelectionTransferDropAdapter.java:64)
+	at org.eclipse.dltk.internal.ui.dnd.DLTKViewerDropAdapter.drop(DLTKViewerDropAdapter.java:241)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:211)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:209)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:258)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-06-12 11:33:59.382
+!MESSAGE Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:219)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:232)
+	at org.eclipse.php.internal.ui.actions.format.FormatActionDelegate.selectionChanged(FormatActionDelegate.java:141)
+	at org.eclipse.php.internal.ui.actions.FormatDocumentAction.selectionChanged(FormatDocumentAction.java:33)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:277)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:299)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(AbstractSelectionService.java:156)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(AbstractSelectionService.java:62)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-06-12 11:33:59.383
+!MESSAGE Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-06-12 11:34:00.196
+!MESSAGE Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:269)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:219)
+	at org.eclipse.wst.sse.ui.internal.actions.FormatActionDelegate.processorAvailable(FormatActionDelegate.java:232)
+	at org.eclipse.php.internal.ui.actions.format.FormatActionDelegate.selectionChanged(FormatActionDelegate.java:141)
+	at org.eclipse.php.internal.ui.actions.FormatDocumentAction.selectionChanged(FormatDocumentAction.java:33)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:206)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:277)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:299)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(AbstractSelectionService.java:156)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(AbstractSelectionService.java:62)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1211)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1241)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:239)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:233)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:403)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-06-12 11:34:00.197
+!MESSAGE Resource is out of sync with the file system: '/EMS/font/Elephant.ttf'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-06-12 11:34:44.396
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.dltk.core.ModelException: Problems encountered while deleting resources.
+	at org.eclipse.dltk.internal.core.MultiOperation.processElements(MultiOperation.java:181)
+	at org.eclipse.dltk.internal.core.MultiOperation.executeOperation(MultiOperation.java:96)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:773)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.delete(DeleteSourceManipulationChange.java:136)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:120)
+	at org.eclipse.php.internal.ui.refactor.processors.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1426)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1377)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.php.internal.ui.refactor.processors.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:48)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1440)
+	at org.eclipse.dltk.internal.core.ModelOperation.deleteResources(ModelOperation.java:317)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.deleteScriptFolder(DeleteResourceElementsOperation.java:68)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:123)
+	at org.eclipse.dltk.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	... 27 more
+!SUBENTRY 1 org.eclipse.dltk.core 4 966 2015-06-12 11:34:44.397
+!MESSAGE Problems encountered while deleting resources.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1440)
+	at org.eclipse.dltk.internal.core.ModelOperation.deleteResources(ModelOperation.java:317)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.deleteScriptFolder(DeleteResourceElementsOperation.java:68)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:123)
+	at org.eclipse.dltk.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.dltk.internal.core.MultiOperation.executeOperation(MultiOperation.java:96)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:773)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.delete(DeleteSourceManipulationChange.java:136)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:120)
+	at org.eclipse.php.internal.ui.refactor.processors.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1426)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1377)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.php.internal.ui.refactor.processors.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:48)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete '/EMS/code/font/Elephant.ttf'.
+Contains: Could not delete 'D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:785)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1973)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1428)
+	at org.eclipse.dltk.internal.core.ModelOperation.deleteResources(ModelOperation.java:317)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.deleteScriptFolder(DeleteResourceElementsOperation.java:68)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:123)
+	at org.eclipse.dltk.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.dltk.internal.core.MultiOperation.executeOperation(MultiOperation.java:96)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:773)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.delete(DeleteSourceManipulationChange.java:136)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:120)
+	at org.eclipse.php.internal.ui.refactor.processors.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1426)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1377)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.php.internal.ui.refactor.processors.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:48)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+!SUBENTRY 2 org.eclipse.core.resources 4 566 2015-06-12 11:34:44.397
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-06-12 11:34:44.397
+!MESSAGE Could not delete '/EMS/code/font/Elephant.ttf'.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-06-12 11:34:44.397
+!MESSAGE Could not delete 'D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:785)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1973)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.core.internal.resources.Workspace.delete(Workspace.java:1428)
+	at org.eclipse.dltk.internal.core.ModelOperation.deleteResources(ModelOperation.java:317)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.deleteScriptFolder(DeleteResourceElementsOperation.java:68)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteResourceElementsOperation.processElement(DeleteResourceElementsOperation.java:123)
+	at org.eclipse.dltk.internal.core.MultiOperation.processElements(MultiOperation.java:168)
+	at org.eclipse.dltk.internal.core.MultiOperation.executeOperation(MultiOperation.java:96)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.internal.core.ModelOperation.runOperation(ModelOperation.java:773)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.delete(DeleteSourceManipulationChange.java:136)
+	at org.eclipse.php.internal.ui.refactor.processors.DeleteSourceManipulationChange.doDelete(DeleteSourceManipulationChange.java:120)
+	at org.eclipse.php.internal.ui.refactor.processors.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1426)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1377)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.php.internal.ui.refactor.processors.UndoablePackageDeleteChange.perform(UndoablePackageDeleteChange.java:48)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-06-12 11:34:44.398
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-06-12 11:34:44.398
+!MESSAGE Could not delete: D:\PHP_workspace\bukaixin\EMS\code\font\Elephant.ttf.
+!SESSION 2015-06-12 11:36:13.465 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 11:36:28.135
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 11:36:28.135
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@7b6617,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-12 11:36:28.385
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-12 11:36:28.385
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@cd429b,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@477b4e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ed54a0)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1d008ff,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@477b4e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ed54a0)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 11:36:28.387
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 11:36:28.387
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-12 11:36:44.838
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.zend.php.common 1 0 2015-06-12 11:36:56.375
+!MESSAGE No response for 4184msec
+Thread[main,6,main]
+ java.util.zip.ZipFile.read(Native Method)
+ java.util.zip.ZipFile.access$1200(Unknown Source)
+ java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+ java.util.zip.ZipFile$1.fill(Unknown Source)
+ java.util.zip.InflaterInputStream.read(Unknown Source)
+ org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+ org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.getBytes(AdaptorUtil.java:247)
+ org.eclipse.osgi.baseadaptor.bundlefile.BundleEntry.getBytes(BundleEntry.java:96)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:548)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:492)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:465)
+ org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+ org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+ org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+ org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+ java.lang.ClassLoader.loadClass(Unknown Source)
+ java.lang.ClassLoader.defineClass1(Native Method)
+ java.lang.ClassLoader.defineClassCond(Unknown Source)
+ java.lang.ClassLoader.defineClass(Unknown Source)
+ org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.defineClass(DefaultClassLoader.java:188)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClassHoldingLock(ClasspathManager.java:632)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.defineClass(ClasspathManager.java:614)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findClassImpl(ClasspathManager.java:568)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClassImpl(ClasspathManager.java:492)
+ org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:465)
+ org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+ org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+ org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+ org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+ java.lang.ClassLoader.loadClass(Unknown Source)
+ org.eclipse.php.internal.ui.editor.configuration.PHPStructuredTextViewerConfiguration.getLineStyleProvider(PHPStructuredTextViewerConfiguration.java:133)
+ org.eclipse.php.internal.ui.editor.configuration.PHPStructuredTextViewerConfiguration.getLineStyleProviders(PHPStructuredTextViewerConfiguration.java:142)
+ org.eclipse.wst.sse.ui.internal.StructuredTextViewer.updateHighlighter(StructuredTextViewer.java:886)
+ org.eclipse.wst.sse.ui.internal.StructuredTextViewer.setDocument(StructuredTextViewer.java:811)
+ org.eclipse.php.internal.ui.editor.PHPStructuredTextViewer.setDocument(PHPStructuredTextViewer.java:646)
+ org.eclipse.jface.text.source.SourceViewer.setDocument(SourceViewer.java:590)
+ org.eclipse.ui.texteditor.AbstractTextEditor.initializeSourceViewer(AbstractTextEditor.java:4039)
+ org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3567)
+ org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:54)
+ org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:447)
+ org.eclipse.wst.sse.ui.StructuredTextEditor.createPartControl(StructuredTextEditor.java:1514)
+ org.eclipse.php.internal.ui.editor.PHPStructuredEditor.createPartControl(PHPStructuredEditor.java:2239)
+ org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:670)
+ org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+ org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+ org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:315)
+ org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+ org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+ org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+ org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+ org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+ org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1198)
+ org.eclipse.ui.internal.PartStack.showPart(PartStack.java:1597)
+ org.eclipse.ui.internal.PartStack.add(PartStack.java:493)
+ org.eclipse.ui.internal.EditorStack.add(EditorStack.java:103)
+ org.eclipse.ui.internal.PartStack.add(PartStack.java:479)
+ org.eclipse.ui.internal.EditorStack.add(EditorStack.java:112)
+ org.eclipse.ui.internal.EditorSashContainer.addEditor(EditorSashContainer.java:63)
+ org.eclipse.ui.internal.EditorAreaHelper.addToLayout(EditorAreaHelper.java:225)
+ org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:213)
+ org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:808)
+ org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:707)
+ org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:666)
+ org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2946)
+ org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2854)
+ org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2846)
+ org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2797)
+ org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2793)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2777)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2768)
+ org.eclipse.dltk.internal.ui.editor.EditorUtility.openInEditor(EditorUtility.java:413)
+ org.eclipse.dltk.internal.ui.editor.EditorUtility.openInEditor(EditorUtility.java:177)
+ org.eclipse.php.internal.ui.actions.OpenActionUtil.open(OpenActionUtil.java:54)
+ org.eclipse.php.internal.ui.actions.OpenAction.run(OpenAction.java:177)
+ org.eclipse.php.internal.ui.actions.OpenAction.run(OpenAction.java:151)
+ org.eclipse.php.internal.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:190)
+ org.eclipse.php.internal.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:168)
+ org.eclipse.php.internal.ui.actions.PHPExplorerActionGroup.handleOpen(PHPExplorerActionGroup.java:171)
+ org.eclipse.dltk.internal.ui.scriptview.ScriptExplorerPart$4.open(ScriptExplorerPart.java:678)
+ org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+ org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+ org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+ org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+ org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+ org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+ org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+ org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+ org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+ org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+ org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+ org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!SESSION 2015-06-12 17:16:56.017 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-12 17:17:10.951
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 17:17:18.030
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 17:17:18.030
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1201a5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-12 17:19:58.465
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-12 17:19:58.465
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1ff7e,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@3f348a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4ec59)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@12ce7c6,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@3f348a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4ec59)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-12 17:19:58.468
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-12 17:19:58.468
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 03:00:21.003
+!MESSAGE No response for 11204023msec
+Thread[main,6,main]
+ org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 08:29:07.311
+!MESSAGE No response for 7633msec
+Thread[main,6,main]
+ org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3129)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 08:32:22.223
+!MESSAGE No response for 26252msec
+Thread[main,6,main]
+ org.eclipse.swt.internal.win32.OS.GetDC(Native Method)
+ org.eclipse.swt.widgets.Display.internal_new_GC(Display.java:2672)
+ org.eclipse.swt.graphics.Image.getBackground(Image.java:1094)
+ org.eclipse.swt.internal.ImageList.set(ImageList.java:417)
+ org.eclipse.swt.internal.ImageList.put(ImageList.java:379)
+ org.eclipse.swt.widgets.ToolItem.updateImages(ToolItem.java:975)
+ org.eclipse.swt.widgets.ToolItem.setEnabled(ToolItem.java:649)
+ org.eclipse.jface.action.ActionContributionItem.update(ActionContributionItem.java:821)
+ org.eclipse.jface.action.ActionContributionItem.actionPropertyChange(ActionContributionItem.java:176)
+ org.eclipse.jface.action.ActionContributionItem.access$0(ActionContributionItem.java:170)
+ org.eclipse.jface.action.ActionContributionItem$2.propertyChange(ActionContributionItem.java:137)
+ org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:48)
+ org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:71)
+ org.eclipse.jface.action.Action.setEnabled(Action.java:577)
+ org.eclipse.ui.internal.actions.CommandAction$1.commandChanged(CommandAction.java:96)
+ org.eclipse.core.commands.Command$1.run(Command.java:540)
+ org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+ org.eclipse.core.commands.Command.fireCommandChanged(Command.java:535)
+ org.eclipse.core.commands.Command.access$0(Command.java:527)
+ org.eclipse.core.commands.Command$2.handlerChanged(Command.java:1039)
+ org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:78)
+ org.eclipse.ui.internal.handlers.HandlerProxy.access$0(HandlerProxy.java:1)
+ org.eclipse.ui.internal.handlers.HandlerProxy$2.handlerChanged(HandlerProxy.java:382)
+ org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:78)
+ org.eclipse.ui.internal.AbstractEnabledHandler.setEnabled(AbstractEnabledHandler.java:39)
+ org.eclipse.ui.internal.AbstractEvaluationHandler$1.propertyChange(AbstractEvaluationHandler.java:58)
+ org.eclipse.ui.internal.services.EvaluationAuthority.firePropertyChange(EvaluationAuthority.java:236)
+ org.eclipse.ui.internal.services.EvaluationAuthority.refsWithSameExpression(EvaluationAuthority.java:157)
+ org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:129)
+ org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+ org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+ org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:401)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:300)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.handleCheck(WorkbenchSourceProvider.java:286)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkOtherSources(WorkbenchSourceProvider.java:855)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider$6.handleEvent(WorkbenchSourceProvider.java:839)
+ org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+ org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+ org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1664)
+ org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2145)
+ org.eclipse.swt.widgets.Control.windowProc(Control.java:4525)
+ org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+ org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+ org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+ org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+ org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3129)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 08:34:40.746
+!MESSAGE No response for 4000msec
+Thread[main,6,main]
+ org.eclipse.jface.text.contentassist.CompletionProposalPopup.createProposalSelector(CompletionProposalPopup.java:589)
+ org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$22(CompletionProposalPopup.java:581)
+ org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:508)
+ org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+ org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:492)
+ org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:378)
+ org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+ org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+ org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 15:48:19.523
+!MESSAGE No response for 3135191msec
+Thread[main,6,main]
+ org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+

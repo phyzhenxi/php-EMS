@@ -24,7 +24,7 @@
 <coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.php.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -33,21 +33,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.php.editor" name="index.php" partName="index.php" path="D:/PHP_workspace/bukaixin/EMS/index.php" title="index.php" tooltip="EMS/index.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EMS/index.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="988" selectionTopPixel="902"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="transfer.php" partName="transfer.php" path="D:/PHP_workspace/bukaixin/Basic/bianliang/transfer.php" title="transfer.php" tooltip="Basic/bianliang/transfer.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Basic/bianliang/transfer.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="252" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems"/>
@@ -91,7 +80,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.php.editor" activePerspective="org.eclipse.php.perspective">
+<perspectives activePart="org.eclipse.php.ui.explorer" activePerspective="org.eclipse.php.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.php.internal.ui.PHPPerspectiveFactory" id="org.eclipse.php.perspective" label="PHP"/>
 <alwaysOnActionSet id="com.zend.php.ui.helpActionSet"/>
@@ -179,11 +168,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
 <hide_toolbar_item_id id="org.eclipse.ui.window.quickAccess"/>
-<hide_toolbar_item_id id="com.zend.php.debug.internal.ui.actions.TunnelingAction"/>
 <hide_toolbar_item_id id="com.zend.php.ui.actions.new.untitled.document"/>
+<hide_toolbar_item_id id="com.zend.php.debug.internal.ui.actions.TunnelingAction"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.EncodeProjectAction"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
 <hide_toolbar_item_id id="com.zend.php.ui.commands.GeneratePHPDocAction"/>
 <view id="org.eclipse.php.ui.explorer"/>
@@ -214,7 +203,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22" ratioLeft="220" ratioRight="780" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22883135" ratioLeft="327" ratioRight="1102" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -242,94 +231,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/code/ValidateCode.class.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/code/checkCode.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/code/captcha.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/regist.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/emplist.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/addEmp.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.add.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.del.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.login.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.modify.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.reg.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.relogin.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/selectUsername.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/updateEmp.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/em/ems.login.handle.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/EMS/index.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/EMS/ziyuan/buttyom.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/Basic/bianliang/transfer.php"/>
-</editors>
-<item historyLabel="ValidateCode.class.php" index="0">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="checkCode.php" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="captcha.php" index="2">
-<position info="not_deleted" x="34" y="0"/>
-</item>
-<item historyLabel="regist.php" index="3">
-<position/>
-</item>
-<item historyLabel="emplist.php" index="4">
-<position/>
-</item>
-<item historyLabel="addEmp.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.add.handle.php" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.del.handle.php" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.login.handle.php" index="8">
-<position info="not_deleted" x="766" y="0"/>
-</item>
-<item historyLabel="ems.modify.handle.php" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.reg.handle.php" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.relogin.handle.php" index="11">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="regist.php" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="selectUsername.php" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="updateEmp.php" index="13">
-<position info="not_deleted" x="150" y="0"/>
-</item>
-<item historyLabel="ems.login.handle.php" index="14">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="emplist.php" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ems.login.handle.php" index="14">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="index.php" index="15">
-<position info="not_deleted" x="456" y="0"/>
-</item>
-<item historyLabel="buttyom.css" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.php" index="15">
-<position info="not_deleted" x="988" y="0"/>
-</item>
-<item active="true" historyLabel="transfer.php" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -347,50 +249,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="transfer.php" tooltip="Basic/bianliang/transfer.php">
-<persistable path="/Basic/bianliang/transfer.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.add.handle.php" tooltip="EMS/art/admin/article.add.handle.php">
+<persistable path="/EMS/art/admin/article.add.handle.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="buttyom.css" tooltip="EMS/ziyuan/buttyom.css">
-<persistable path="/EMS/ziyuan/buttyom.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="EMS/index.php">
-<persistable path="/EMS/index.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="emplist.php" tooltip="EMS/em/emplist.php">
-<persistable path="/EMS/em/emplist.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.login.handle.php" tooltip="EMS/em/ems.login.handle.php">
-<persistable path="/EMS/em/ems.login.handle.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="updateEmp.php" tooltip="EMS/em/updateEmp.php">
-<persistable path="/EMS/em/updateEmp.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="selectUsername.php" tooltip="EMS/em/selectUsername.php">
-<persistable path="/EMS/em/selectUsername.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="regist.php" tooltip="EMS/em/regist.php">
-<persistable path="/EMS/em/regist.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.relogin.handle.php" tooltip="EMS/em/ems.relogin.handle.php">
-<persistable path="/EMS/em/ems.relogin.handle.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.reg.handle.php" tooltip="EMS/em/ems.reg.handle.php">
-<persistable path="/EMS/em/ems.reg.handle.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.modify.handle.php" tooltip="EMS/em/ems.modify.handle.php">
-<persistable path="/EMS/em/ems.modify.handle.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.del.handle.php" tooltip="EMS/em/ems.del.handle.php">
-<persistable path="/EMS/em/ems.del.handle.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.add.php" tooltip="EMS/art/admin/article.add.php">
+<persistable path="/EMS/art/admin/article.add.php"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.add.handle.php" tooltip="EMS/em/ems.add.handle.php">
 <persistable path="/EMS/em/ems.add.handle.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="addEmp.php" tooltip="EMS/em/addEmp.php">
-<persistable path="/EMS/em/addEmp.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="emplist.php" tooltip="EMS/em/emplist.php">
+<persistable path="/EMS/em/emplist.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="captcha.php" tooltip="EMS/em/code/captcha.php">
-<persistable path="/EMS/em/code/captcha.php"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="EMS/em/index.php">
+<persistable path="/EMS/em/index.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.list.php" tooltip="EMS/art/article.list.php">
+<persistable path="/EMS/art/article.list.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="about.php" tooltip="EMS/art/about.php">
+<persistable path="/EMS/art/about.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="contact.php" tooltip="EMS/art/contact.php">
+<persistable path="/EMS/art/contact.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.search.php" tooltip="EMS/art/article.search.php">
+<persistable path="/EMS/art/article.search.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.show.php" tooltip="EMS/art/article.show.php">
+<persistable path="/EMS/art/article.show.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.modify.php" tooltip="EMS/art/admin/article.modify.php">
+<persistable path="/EMS/art/admin/article.modify.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.modify.handle.php" tooltip="EMS/art/admin/article.modify.handle.php">
+<persistable path="/EMS/art/admin/article.modify.handle.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.manage.php" tooltip="EMS/art/admin/article.manage.php">
+<persistable path="/EMS/art/admin/article.manage.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="article.del.handle.php" tooltip="EMS/art/admin/article.del.handle.php">
+<persistable path="/EMS/art/admin/article.del.handle.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="ems.login.handle.php" tooltip="EMS/em/ems.login.handle.php">
+<persistable path="/EMS/em/ems.login.handle.php"/>
 </file>
 </mruList>
 </workbench>

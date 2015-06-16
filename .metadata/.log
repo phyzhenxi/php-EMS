@@ -4080,3 +4080,293 @@ Thread[main,6,main]
 
 !ENTRY org.eclipse.dltk.core 2 0 2015-06-13 15:53:38.142
 !MESSAGE Error decoding problem idenfier "536871091"
+!SESSION 2015-06-13 17:57:46.517 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-13 17:57:58.786
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.eclipse.jface 2 0 2015-06-13 17:58:02.277
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-13 17:58:02.277
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1b8d82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.dltk.core 2 0 2015-06-13 17:58:02.757
+!MESSAGE Error decoding problem idenfier "536871091"
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-13 17:58:05.138
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-13 17:58:05.138
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1fa0f19,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@7aa859),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@ecf608)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1f5376c,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@7aa859),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@ecf608)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-13 17:58:05.141
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-13 17:58:05.141
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+!SESSION 2015-06-13 18:00:58.092 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_31
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2015-06-13 18:01:03.815
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-13 18:01:03.815
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1ca73bf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-06-13 18:01:03.834
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-06-13 18:01:03.835
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@64af0f,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1281264),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@15863e4)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@213339,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1281264),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@15863e4)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.jface 2 0 2015-06-13 18:01:03.838
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-06-13 18:01:03.839
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.dltk.ui.edit.text.script.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.dltk.ui.category.refactoring,Refactor - DLTK,DLTK Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.php.internal.ui.actions.RenameAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.dltk.ui.context.views,,,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-06-13 18:01:40.852
+!MESSAGE Project facet jst.java has not been defined. It is used in plugin org.eclipse.php.core.
+
+!ENTRY org.zend.php.common 1 0 2015-06-13 18:01:43.700
+!MESSAGE No response for 2028msec
+Thread[main,6,main]
+ java.lang.Object.getClass(Native Method)
+ org.eclipse.core.internal.expressions.Expressions.isInstanceOf(Expressions.java:56)
+ org.eclipse.core.internal.expressions.InstanceofExpression.evaluate(InstanceofExpression.java:52)
+ org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+ org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:189)
+ org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+ org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+ org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+ org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+ org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+ org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+ org.eclipse.core.internal.expressions.NotExpression.evaluate(NotExpression.java:35)
+ org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+ org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+ org.eclipse.ui.internal.services.EvaluationResultCache.evaluate(EvaluationResultCache.java:74)
+ org.eclipse.ui.internal.services.ExpressionAuthority.evaluate(ExpressionAuthority.java:165)
+ org.eclipse.ui.internal.services.EvaluationAuthority.refsWithSameExpression(EvaluationAuthority.java:155)
+ org.eclipse.ui.internal.services.EvaluationAuthority.sourceChanged(EvaluationAuthority.java:129)
+ org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:311)
+ org.eclipse.ui.internal.services.ExpressionAuthority.sourceChanged(ExpressionAuthority.java:290)
+ org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:99)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:401)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:300)
+ org.eclipse.ui.internal.services.WorkbenchSourceProvider$1.partOpened(WorkbenchSourceProvider.java:251)
+ org.eclipse.ui.internal.PartListenerList$5.run(PartListenerList.java:132)
+ org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+ org.eclipse.core.runtime.Platform.run(Platform.java:857)
+ org.eclipse.ui.internal.PartListenerList.fireEvent(PartListenerList.java:57)
+ org.eclipse.ui.internal.PartListenerList.firePartOpened(PartListenerList.java:130)
+ org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:276)
+ org.eclipse.ui.internal.WWinPartService$WWinListener.partOpened(WWinPartService.java:54)
+ org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:130)
+ org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+ org.eclipse.core.runtime.Platform.run(Platform.java:857)
+ org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+ org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:128)
+ org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:280)
+ org.eclipse.ui.internal.WorkbenchPagePartList.firePartOpened(WorkbenchPagePartList.java:35)
+ org.eclipse.ui.internal.PartList.partOpened(PartList.java:241)
+ org.eclipse.ui.internal.PartList.addPart(PartList.java:97)
+ org.eclipse.ui.internal.WorkbenchPage.partAdded(WorkbenchPage.java:1783)
+ org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:217)
+ org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:808)
+ org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:707)
+ org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:666)
+ org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2946)
+ org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2854)
+ org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2846)
+ org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2797)
+ org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2793)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2777)
+ org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2768)
+ org.eclipse.dltk.internal.ui.editor.EditorUtility.openInEditor(EditorUtility.java:413)
+ org.eclipse.dltk.internal.ui.editor.EditorUtility.openInEditor(EditorUtility.java:177)
+ org.eclipse.php.internal.ui.actions.OpenActionUtil.open(OpenActionUtil.java:54)
+ org.eclipse.php.internal.ui.actions.OpenAction.run(OpenAction.java:177)
+ org.eclipse.php.internal.ui.actions.OpenAction.run(OpenAction.java:151)
+ org.eclipse.php.internal.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:190)
+ org.eclipse.php.internal.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:168)
+ org.eclipse.php.internal.ui.actions.PHPExplorerActionGroup.handleOpen(PHPExplorerActionGroup.java:171)
+ org.eclipse.dltk.internal.ui.scriptview.ScriptExplorerPart$4.open(ScriptExplorerPart.java:678)
+ org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+ org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+ org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+ org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+ org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+ org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+ org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+ org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+ org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+ org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+ org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+ org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+ org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+
+!ENTRY org.zend.php.common 1 0 2015-06-15 08:41:10.576
+!MESSAGE No response for 5069msec
+Thread[main,6,main]
+ org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+ org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3129)
+ org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+ org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+ org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+ org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+ org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+ org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+ org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+ org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+ org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+ org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+ org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+ org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+ sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+ sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+ java.lang.reflect.Method.invoke(Unknown Source)
+ org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+ org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+ org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
